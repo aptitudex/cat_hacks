@@ -20,9 +20,20 @@ pygame.mixer.music.set_volume(0.8)
 pygame.mixer.music.load("lemon_demon_cat_hacks.ogg")
 pygame.mixer.music.play()
 
+
+# time handling
+clock = pygame.time.Clock()
+
+def timeTick(pTime):
+    print(pTime)
+
+
 # game loop
 while 1:
+    clock.tick(30)
+    ticks = pygame.time.get_ticks()
+    print(ticks)
     for event in pygame.event.get():
         if event.type == QUIT:
             exit()
-    
+
