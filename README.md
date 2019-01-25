@@ -1,2 +1,2 @@
-# electric_sheep
-A 2D game written in python about robots and surfing the internet
+# cat hacks
+song + animation + neat effects in python
